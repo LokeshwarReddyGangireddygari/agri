@@ -1,0 +1,14 @@
+<ion-view class="videosView">
+  <ion-content>
+    <ion-list>
+      <div ng-repeat="item in categoryList">
+        <ion-item ng-click="toggleView(item)">
+          {{item.title}}
+        </ion-item>
+        <ion-item class="videoTile" ng-repeat="video in item.videosList" href="#" ng-show="isOpen(item)">
+          {{video.title}}
+        </ion-item>
+      </div>
+    </ion-list>
+  </ion-content>
+</ion-view>

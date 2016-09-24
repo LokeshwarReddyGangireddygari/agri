@@ -1,1 +1,41 @@
 /* Empty. Add your own CSS if you like */
+
+.appTitle {
+  font-size: 24px;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+.appIcon {
+  padding: 5px;
+  font-size: 24px;
+}
+
+.homeView .card {
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: black;
+  padding: 0;
+  border: 5px solid #28a54c;
+  color: white;
+  text-align: center;
+}
+
+.homeView .card .title {
+  line-height: 2;
+  font-weight: bold;
+}
+
+.homeView .card .item-image img {
+  height: 100px;
+}
+
+.videosView .videoTile {
+  margin: 10px;
+}
+
+.callcenterView .card {
+  text-align: center;
+  border: 2px solid;
+  border-radius: 10px;
+}

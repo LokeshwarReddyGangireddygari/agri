@@ -1,0 +1,19 @@
+<ion-view class="addressbookView">
+  <ion-content>
+    <ion-list>
+      <div ng-repeat="item in categoryList">
+        <ion-item ng-click="toggleView(item)">
+          {{item.title}}
+        </ion-item>
+        <ion-item class="videoTile" ng-repeat="video in item.videosList" href="#" >
+          {{video.title}}
+        </ion-item>
+        <div class="card" ng-show="isOpen(item)" ng-repeat="contact in item.contactList">
+          <div class="item item-text-wrap">
+            {{contact.name}}
+          </div>
+        </div>
+      </div>
+    </ion-list>
+  </ion-content>
+</ion-view>
