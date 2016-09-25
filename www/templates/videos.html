@@ -5,7 +5,7 @@
         <ion-item ng-click="toggleView(item)">
           {{item.title}}
         </ion-item>
-        <ion-item class="videoTile" ng-repeat="video in item.videosList" href="#" ng-show="isOpen(item)">
+        <ion-item class="videoTile" ng-repeat="video in item.videosList" href="#" ng-show="isOpen(item)" ng-click="showVideo(video)">
           {{video.title}}
         </ion-item>
       </div>

@@ -9,16 +9,20 @@ angular.module('agri.controllers', [])
   $scope.categoryList = [{
     'title': 'గోధుమ',
     videosList: [{
-      "title": "V-1"
+      "title": "V-1",
+      "link": "https://www.youtube.com/watch?v=tjAGbNbglqU"
     }, {
-      "title": "V-2"
+      "title": "V-2",
+      "link": "https://www.youtube.com/watch?v=tjAGbNbglqU"
     }]
   }, {
     'title': 'కొబ్బరి',
     videosList: [{
-      "title": "V-1"
+      "title": "V-1",
+      "link": "https://www.youtube.com/watch?v=tjAGbNbglqU"
     }, {
-      "title": "V-2"
+      "title": "V-2",
+      "link": "https://www.youtube.com/watch?v=tjAGbNbglqU"
     }]
   }];
   $scope.isOpen = function(item) {
@@ -30,6 +34,10 @@ angular.module('agri.controllers', [])
     } else {
       $scope.shownItem = item;
     }
+  }
+
+  $scope.showVideo = function(video){
+    window.open(video.link, '_system'); 
   }
 })
 
