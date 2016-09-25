@@ -82,4 +82,7 @@ angular.module('agri.controllers', [])
     name: "Abc",
     number: '123123'
   }]
-});
+})
+
+
+;
