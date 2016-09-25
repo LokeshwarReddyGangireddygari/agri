@@ -70,6 +70,83 @@ angular.module('agri.maninModule', ['ionic', 'agri.controllers'])
         }
       }
     })
+
+  .state('app.pretext', {
+      url: '/pretext',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/pretext.html'
+        }
+      }
+    })
+
+   .state('app.about', {
+      url: '/about',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/about.html'
+        }
+      }
+    })
+
+    .state('app.founder', {
+      url: '/founder',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/founder.html'
+        }
+      }
+    })
+
+    .state('app.gratitude', {
+      url: '/gratitude',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/gratitude.html'
+        }
+      }
+    })
+
+    .state('app.rating', {
+      url: '/rating',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/rating.html'
+        }
+      }
+    })
+
+    .state('app.share', {
+      url: '/share',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/share.html'
+        }
+      }
+    })
+     
+    .state('app.feedback', {
+      url: '/feedback',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/feedback.html'
+        }
+      }
+    })
+
+    .state('app.address', {
+      url: '/address',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/address.html'
+        }
+      }
+    })
+     
+     
+    
+
+  
     // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/home');
 });
