@@ -5,8 +5,23 @@ angular.module('agri.controllers', [])
 
 })
 
-.controller('CropsCtrl', function($scope) {
-  
+.controller('CropsCtrl', function($scope,$state) {
+ 
+  $scope.navCrop = function(crop){
+    
+    switch(crop){
+      case "cotton"    :
+                  $state.go("app.cotton")  ;   
+                  break;
+      case "groundnut"  :
+                  $state.go("app.groundnut")  ;   
+                  break;
+
+      case "toordal"   :
+                  $state.go("app.toordal")  ;   
+                  break;           
+    }
+  }
 
 })
 

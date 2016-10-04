@@ -42,6 +42,35 @@ angular.module('agri.maninModule', ['ionic', 'agri.controllers'])
     }
   })
 
+  .state('app.cotton', {
+    url: '/cotton',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/cotton.html'
+        }
+    }
+    
+  })
+
+  .state('app.groundnut', {
+    url: '/groundnut',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut.html'
+        }
+    }    
+  })
+
+  .state('app.toordal', {
+    url: '/toordal',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/toordal.html'
+        }
+    }
+  })
+
+
   .state('app.videos', {
     url: '/videos',
     views: {
