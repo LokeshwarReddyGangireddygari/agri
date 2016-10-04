@@ -68,3 +68,20 @@
 li:before {
   content: '*';
 }
+
+.cropwrapper{
+  width:100%;
+  margin:10px;
+  float:left;
+}
+
+.crop{
+  padding:20px;
+  width:50%;
+  float:left;
+}
+
+.cropicon{
+  width:100%;
+  height:150px;
+}

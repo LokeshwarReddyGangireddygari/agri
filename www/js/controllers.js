@@ -5,6 +5,12 @@ angular.module('agri.controllers', [])
 
 })
 
+.controller('CropsCtrl', function($scope) {
+  
+
+})
+
+
 .controller('VideosCtrl', function($scope) {
   $scope.categoryList = [{
     'title': 'గోధుమ',

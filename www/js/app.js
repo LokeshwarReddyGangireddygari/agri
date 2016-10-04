@@ -32,6 +32,16 @@ angular.module('agri.maninModule', ['ionic', 'agri.controllers'])
     controller: 'AppCtrl'
   })
 
+  .state('app.crops', {
+    url: '/crops',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/crops.html',
+        controller: 'CropsCtrl'
+      }
+    }
+  })
+
   .state('app.videos', {
     url: '/videos',
     views: {
