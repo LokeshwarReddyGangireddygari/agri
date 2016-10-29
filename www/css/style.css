@@ -85,3 +85,16 @@ li:before {
   width:100%;
   height:100px;
 }
+
+.kandhi p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.kandhi h1 {
+  text-align: center;
+}
+
+.kandhi li:before {
+  content: '';
+}
