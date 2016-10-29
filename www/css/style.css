@@ -111,3 +111,6 @@ li:before {
 .paddy li:before {
   content: '';
 }
+.address {
+  margin: 10px;
+}
