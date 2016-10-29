@@ -49,7 +49,7 @@ angular.module('agri.maninModule', ['ionic', 'agri.controllers'])
           templateUrl: 'templates/cotton.html'
         }
     }
-    
+
   })
 
   .state('app.groundnut', {
@@ -58,7 +58,7 @@ angular.module('agri.maninModule', ['ionic', 'agri.controllers'])
         'menuContent': {
           templateUrl: 'templates/groundnut.html'
         }
-    }    
+    }
   })
 
   .state('app.toordal', {
@@ -66,6 +66,15 @@ angular.module('agri.maninModule', ['ionic', 'agri.controllers'])
     views: {
         'menuContent': {
           templateUrl: 'templates/toordal.html'
+        }
+    }
+  })
+
+  .state('app.paddy', {
+    url: '/paddy',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/paddy.html'
         }
     }
   })
@@ -163,7 +172,7 @@ angular.module('agri.maninModule', ['ionic', 'agri.controllers'])
         }
       }
     })
-     
+
     .state('app.feedback', {
       url: '/feedback',
       views: {
@@ -181,11 +190,11 @@ angular.module('agri.maninModule', ['ionic', 'agri.controllers'])
         }
       }
     })
-     
-     
-    
 
-  
+
+
+
+
     // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/home');
 });

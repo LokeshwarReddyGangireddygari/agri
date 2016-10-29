@@ -6,20 +6,23 @@ angular.module('agri.controllers', [])
 })
 
 .controller('CropsCtrl', function($scope,$state) {
- 
+
   $scope.navCrop = function(crop){
-    
+
     switch(crop){
       case "cotton"    :
-                  $state.go("app.cotton")  ;   
+                  $state.go("app.cotton")  ;
                   break;
       case "groundnut"  :
-                  $state.go("app.groundnut")  ;   
+                  $state.go("app.groundnut")  ;
                   break;
 
       case "toordal"   :
-                  $state.go("app.toordal")  ;   
-                  break;           
+                  $state.go("app.toordal")  ;
+                  break;
+      case "paddy"   :
+                  $state.go("app.paddy")  ;
+                  break;
     }
   }
 
@@ -58,7 +61,7 @@ angular.module('agri.controllers', [])
   }
 
   $scope.showVideo = function(video){
-    window.open(video.link, '_system'); 
+    window.open(video.link, '_system');
   }
 })
 
