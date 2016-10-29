@@ -98,3 +98,16 @@ li:before {
 .kandhi li:before {
   content: '';
 }
+
+.paddy p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.paddy h1 {
+  text-align: center;
+}
+
+.paddy li:before {
+  content: '';
+}
