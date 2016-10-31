@@ -110,3 +110,7 @@ li:before {
 .address {
   margin: 10px;
 }
+
+p {
+  line-height: 150%;
+}
