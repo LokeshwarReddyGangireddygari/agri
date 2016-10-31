@@ -99,15 +99,11 @@ li:before {
   content: '';
 }
 
-.paddy p {
+.paddy {
   margin-left: 15px;
   margin-right: 15px;
+  overflow: scroll;
 }
-
-.paddy h1 {
-  text-align: center;
-}
-
 .paddy li:before {
   content: '';
 }
