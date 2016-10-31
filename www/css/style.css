@@ -99,7 +99,7 @@ li:before {
   content: '';
 }
 
-.paddy {
+.paddy, .cotton {
   margin-left: 15px;
   margin-right: 15px;
   overflow: scroll;
