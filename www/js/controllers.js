@@ -23,6 +23,9 @@ angular.module('agri.controllers', [])
       case "paddy"   :
                   $state.go("app.paddy")  ;
                   break;
+      case "groundnut"   :
+                  $state.go("app.groundnut")  ;
+                  break;
     }
   }
 
