@@ -146,6 +146,15 @@ angular.module('agri.maninModule', ['ionic', 'agri.controllers'])
       }
     })
 
+    .state('app.thanks', {
+      url: '/thanks',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/thanks.html'
+        }
+      }
+    })
+
     .state('app.gratitude', {
       url: '/gratitude',
       views: {

@@ -99,7 +99,7 @@ li:before {
   content: '';
 }
 
-.paddy, .cotton, .kandhi, .groundnut {
+.paddy, .cotton, .kandhi, .groundnut, .pretext, .about, .gratitude {
   margin-left: 15px;
   margin-right: 15px;
   overflow: scroll;
