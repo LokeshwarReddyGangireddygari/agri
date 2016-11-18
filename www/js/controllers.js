@@ -33,25 +33,26 @@ angular.module('agri.controllers', [])
 
 
 .controller('VideosCtrl', function($scope) {
-  $scope.categoryList = [{
-    'title': 'గోధుమ',
-    videosList: [{
-      "title": "V-1",
-      "link": "https://www.youtube.com/watch?v=tjAGbNbglqU"
+  $scope.videosList=[
+    {
+      "title": "శ్రీ వరి లో సాగు పధ్ధతి",
+      "link": "https://www.youtube.com/watch?v=vpFHy5jjACE"
     }, {
-      "title": "V-2",
-      "link": "https://www.youtube.com/watch?v=tjAGbNbglqU"
-    }]
-  }, {
-    'title': 'కొబ్బరి',
-    videosList: [{
-      "title": "V-1",
-      "link": "https://www.youtube.com/watch?v=tjAGbNbglqU"
-    }, {
-      "title": "V-2",
-      "link": "https://www.youtube.com/watch?v=tjAGbNbglqU"
-    }]
-  }];
+      "title": "డ్రం సీడర్ పద్ధతిలో విత్తుట",
+      "link": "https://www.youtube.com/watch?v=RMa2Qsb1h04"
+    },
+    {
+      "title": "వరిలో సమగ్ర సస్య రక్షణ పద్ధతులు",
+      "link": "https://www.youtube.com/watch?v=9BWUhlhZhSs"
+    },
+    {
+      "title": "వరిలో తెగుళ్ళ యాజమాన్యం",
+      "link": "https://www.youtube.com/watch?v=eiWBkQKQw0g"
+    },
+
+ ];
+
+
   $scope.isOpen = function(item) {
     return $scope.shownItem === item;
   }
@@ -69,29 +70,24 @@ angular.module('agri.controllers', [])
 })
 
 .controller('AddressbookCtrl', function($scope) {
+ 
   $scope.categoryList = [{
-    'title': 'గోదావరి',
-    contactList: [{
-      "name": "V-1"
-    }, {
-      "name": "V-2"
-    }]
-  }, {
-    'title': 'కృష్ణ',
-    contactList: [{
-      "name": "V-1"
-    }, {
-      "name": "V-2"
-    }]
-  }, {
-    'title': 'దక్షిణ',
-    contactList: [{
-      "name": "V-1"
-    }, {
-      "name": "V-2"
-    }]
+    'title': "కృషి విజ్ఞాన్ కేద్రం",
+    "address":{
+      "address1":"ఉటుకూరు",
+      "address2":"కడప జిల్లా, ఆంధ్ర ప్రదేశ్"
+    }
+  },
+  {
+    'title': "ప్రాజెక్ట్ డైరెక్టర్",
+    "address":{
+      "address1":"ఆత్మ, ఉటుకూరు",
+      "address2":"కడప జిల్లా, ఆంధ్ర ప్రదేశ్"
+    } 
   }];
+
   $scope.isOpen = function(item) {
+
     return $scope.shownItem === item;
   }
   $scope.toggleView = function(item) {
@@ -105,18 +101,32 @@ angular.module('agri.controllers', [])
 
 .controller('CallcenterCtrl', function($scope) {
   $scope.contactsList = [{
-    name: "Abc",
-    number: '123123'
+    name: "వ్యవసాయ పంటల సూచనలు",
+    number: '18004254440',
+    address:"ఆచార్య ఎన్.జి.రంగా వ్యవసాయ విశ్వవిద్యాలయం"
   }, {
-    name: "Abc",
-    number: '123123'
+    name: "ఉద్యాన పంటల సూచనలు",
+    number: '18004252960',
+    address:"ఉద్యాన శాఖ, ఆంధ్రప్రదేశ్ ప్రభుత్వం"
   }, {
-    name: "Abc",
-    number: '123123'
+    name: "చేపల పెంపకం సూచనలు",
+    number: '18004251188',
+    address:"మత్స్యశాఖ, ఆంధ్రప్రదేశ్ ప్రభుత్వం"
   }, {
-    name: "Abc",
-    number: '123123'
+    name: "వాతావరణ సూచనలు",
+    number: '18001801717',
+    address:"భారత ప్రభుత్వం"
+  },{
+    name:"రైతుల కాల్ సెంటర్ నెంబర్",
+    number:"1800 425 0430",
+    address:"భారత ప్రభుత్వం"
+
+  },{
+    name:"అన్నపూర్ణ కృషి ప్రసారసేవ",
+    number:"1800 425 3141",
+    address:"భారత ప్రభుత్వం"
   }]
+
 })
 
 

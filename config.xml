@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.agri855270" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>agri</name>
+<widget id="com.ushainfosolutions.agri" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>కెవికె ఆత్మ కడప అగ్రి యాప్</name>
   <description>
         An Ionic Framework and Cordova project.
     </description>
-  <author email="you@example.com" href="http://example.com.com/">
-      Your Name Here
+  <author email="lokesh.gangireddygari@gmail.com" href="http://gmail.com">
+     Lokesh
     </author>
   <content src="index.html"/>
   <access origin="*"/>
+  <access origin="tel:*" launch-external="yes" />
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>

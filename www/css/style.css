@@ -1,8 +1,8 @@
 /* Empty. Add your own CSS if you like */
 
 .appTitle {
-  font-size: 24px;
-  font-weight: bolder;
+  font-size: 18px;
+  font-weight: bold;
   padding: 5px;
 }
 
@@ -41,17 +41,17 @@
 }
 
 .content-heading{
-    margin-top:20px;
-    margin-bottom:10px;
-    border-radius: 15px;
-    background: #73AD21;
-    padding-top: 20px;
-    padding-right: 10px;
-    padding-left:10px;
-    padding-bottom: 10px;
-    width: 100%;
-    height: 60px;
-    text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  background: #73AD21;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 40px;
+  text-align: center;
 }
 
 .contentWrapper{
@@ -86,7 +86,7 @@ li:before {
   height:100px;
 }
 
-.kandhi p {
+.kandhi {
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -95,17 +95,10 @@ li:before {
   text-align: center;
 }
 
-.kandhi li:before {
-  content: '';
-}
-
 .paddy, .cotton, .kandhi, .groundnut, .pretext, .about, .gratitude {
   margin-left: 15px;
   margin-right: 15px;
-  overflow: scroll;
-}
-.paddy li:before {
-  content: '';
+  /*overflow: scroll;*/
 }
 .address {
   margin: 10px;
@@ -113,4 +106,81 @@ li:before {
 
 p {
   line-height: 150%;
+}
+
+.founderDetails td {
+  padding-left: 10px;
+}
+
+.kadapaAddress span{
+  display: inline-block;
+  padding-left: 2px;
+  vertical-align: text-bottom;
+}
+.kadapaAddress div{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.addr-li-hack{
+  padding-left: 23px;
+}
+
+.addr-lx-heading{
+    display: inline;
+    float: left;
+}
+
+.groundnut-title{
+
+  text-align: center;
+}
+.gnut-flex-box{
+
+  display: flex;
+}
+
+
+.gnut-flex-content{
+
+  flex:1;
+}
+
+.gnut-flex-content-no{
+
+  flex: 0.1;
+}
+    
+.table-wrapper {
+  overflow: scroll;
+}
+
+.kandhi > p, .cotton p[align=justify] {
+    padding-bottom: 10px;
+    padding-top:10px;
+}
+.paddy > p{
+    
+    padding-top:10px;
+}
+
+li:before {
+    content: '•';
+}
+
+.paddy li > p, .kandhi li > p, .cotton li > p {
+    display: inline;
+    padding-left: 5px;
+}
+
+.cotton-table-1 tr td{
+  
+}
+
+.ion-ios-telephone:before {
+  font-size: 25px;
+  vertical-align: middle;
+}
+.ion-ios-telephone {
+  text-decoration: none;
 }

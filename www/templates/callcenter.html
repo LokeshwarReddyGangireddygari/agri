@@ -2,9 +2,10 @@
   <ion-content>
     <div class="card" ng-repeat="contact in contactsList">
       <div class="item item-text-wrap">
-        {{contact.name}}
-        <hr>
-        {{contact.number}}
+        {{contact.name}}<span>,&nbsp;</span>{{contact.address}}<span>,&nbsp;</span>
+        <div>
+          <a class="ion-ios-telephone" ng-href="tel: {{contact.number}}">{{contact.number}}</a> 
+        </div>
       </div>
     </div>
   </ion-content>

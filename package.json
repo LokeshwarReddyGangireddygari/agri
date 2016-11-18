@@ -1,7 +1,7 @@
 {
-  "name": "agri",
+  "name": "కెవికె-ఆత్మ-కడప-అగ్రి-యాప",
   "version": "1.1.1",
-  "description": "agri: An Ionic project",
+  "description": "agri: An agriculture project of Kadapa District",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",
