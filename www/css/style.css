@@ -184,3 +184,77 @@ li:before {
 .ion-ios-telephone {
   text-decoration: none;
 }
+
+.section-heading{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color: white;
+  background: #33cd5f;
+  border-style: solid;
+  height: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-width: 2px;
+}
+.paddymenu{
+background-color: #5e5eff;
+padding-top:10px;
+padding-bottom: 10px;
+text-align: center;
+}
+
+.oval{
+  width:200px;
+  height:50px;
+  background-color: #33cd5f;
+  border-radius: 100px / 25px;
+  border-style: solid;
+   border-width: 2px;
+  border-color: white;
+  margin: auto;
+  padding:10px;
+  font-weight: bold;
+}
+
+.roundedrect{
+    border-style: solid;
+   border-width: 2px;
+  border-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #33cd5f;
+  text-align: left;
+}
+
+.sub-section{
+   border-style: solid;
+   border-width: 2px;
+  border-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left:auto;
+  margin-right: auto;
+      width: 300px;
+  background-color: #33cd5f;
+  font-weight: bold;
+  text-align: center;
+}
+table{
+  text-align: center;
+
+}
+td{
+  padding:10px;
+}
+th{
+  font-weight: bold;
+}
+
+.leftalign{
+  text-align: left;
+}
+
+.paddy7table{
+  
+}

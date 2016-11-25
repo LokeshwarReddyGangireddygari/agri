@@ -70,12 +70,130 @@ angular.module('agri.maninModule', ['ionic', 'agri.controllers'])
     }
   })
 
-  .state('app.paddy', {
-    url: '/paddy',
-    views: {
-        'menuContent': {
-          templateUrl: 'templates/paddy.html'
-        }
+  .state('app.paddymenu', {
+    url: '/paddymenu',   
+     views: {
+      'menuContent': {
+        templateUrl: 'templates/paddy/1.html',
+        controller: 'PaddyMenuCtrl'
+      }
+    }
+  })
+
+  .state('app.paddy2', {
+    url: '/paddy2',   
+     views: {
+      'menuContent': {
+        templateUrl: 'templates/paddy/2.html'
+      }
+    }
+  })
+
+  .state('app.paddy3', {
+    url: '/paddy3',   
+     views: {
+      'menuContent': {
+        templateUrl: 'templates/paddy/3.html'
+      }
+    }
+  })
+
+  .state('app.paddy4', {
+    url: '/paddy4',   
+     views: {
+      'menuContent': {
+        templateUrl: 'templates/paddy/4.html'
+      }
+    }
+  })
+
+  .state('app.paddy5', {
+    url: '/paddy5',   
+     views: {
+      'menuContent': {
+        templateUrl: 'templates/paddy/5.html'
+      }
+    }
+  })
+
+  .state('app.paddy6', {
+    url: '/paddy6',   
+     views: {
+      'menuContent': {
+        templateUrl: 'templates/paddy/6.html'
+      }
+    }
+  })
+   
+  .state('app.paddy7', {
+    url: '/paddy7',   
+     views: {
+      'menuContent': {
+        templateUrl: 'templates/paddy/7.html'
+      }
+    }
+  })
+  
+  .state('app.paddy8', {
+    url: '/paddy8',   
+     views: {
+      'menuContent': {
+        templateUrl: 'templates/paddy/8.html'
+      }
+    }
+  })
+
+  .state('app.paddy9', {
+    url: '/paddy9',   
+     views: {
+      'menuContent': {
+        templateUrl: 'templates/paddy/9.html'
+      }
+    }
+  })
+
+  .state('app.paddy10', {
+    url: '/paddy10',   
+     views: {
+      'menuContent': {
+        templateUrl: 'templates/paddy/10.html'
+      }
+    }
+  })
+
+  .state('app.paddy11', {
+    url: '/paddy11',   
+     views: {
+      'menuContent': {
+        templateUrl: 'templates/paddy/11.html'
+      }
+    }
+  })
+
+  .state('app.paddy12', {
+    url: '/paddy12',   
+     views: {
+      'menuContent': {
+        templateUrl: 'templates/paddy/12.html'
+      }
+    }
+  })
+
+  .state('app.paddy13', {
+    url: '/paddy13',   
+     views: {
+      'menuContent': {
+        templateUrl: 'templates/paddy/13.html'
+      }
+    }
+  })
+
+  .state('app.paddy14', {
+    url: '/paddy14',   
+     views: {
+      'menuContent': {
+        templateUrl: 'templates/paddy/14.html'
+      }
     }
   })
 

@@ -21,7 +21,7 @@ angular.module('agri.controllers', [])
                   $state.go("app.toordal")  ;
                   break;
       case "paddy"   :
-                  $state.go("app.paddy")  ;
+                  $state.go("app.paddymenu")  ;
                   break;
       case "groundnut"   :
                   $state.go("app.groundnut")  ;
@@ -129,5 +129,8 @@ angular.module('agri.controllers', [])
 
 })
 
+.controller('PaddyMenuCtrl', function($scope) {
+
+});
 
 ;
