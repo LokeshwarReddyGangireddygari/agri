@@ -46,11 +46,179 @@ angular.module('agri.maninModule', ['ionic', 'agri.controllers'])
     url: '/cotton',
     views: {
         'menuContent': {
-          templateUrl: 'templates/cotton.html'
+          templateUrl: 'templates/cotton/1.html'
         }
     }
 
   })
+
+  .state('app.cotton2', {
+    url: '/cotton2',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/cotton/2.html'
+        }
+    }
+
+  })
+
+  .state('app.cotton3', {
+    url: '/cotton3',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/cotton/3.html'
+        }
+    }
+
+  })
+
+  .state('app.cotton4', {
+    url: '/cotton4',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/cotton/4.html'
+        }
+    }
+
+  })
+
+  .state('app.cotton5', {
+    url: '/cotton5',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/cotton/5.html'
+        }
+    }
+
+  })
+
+  .state('app.cotton6', {
+    url: '/cotton6',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/cotton/6.html'
+        }
+    }
+
+  })
+
+  .state('app.cotton7', {
+    url: '/cotton7',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/cotton/7.html'
+        }
+    }
+  })
+
+  .state('app.cotton7-1', {
+    url: '/cotton7-1',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/cotton/7-1.html'
+        }
+    }
+  })
+
+  .state('app.cotton7-2', {
+    url: '/cotton7-2',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/cotton/7-2.html'
+        }
+    }
+  })
+
+  .state('app.cotton7-3', {
+    url: '/cotton7-3',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/cotton/7-3.html'
+        }
+    }
+  })
+
+  .state('app.cotton7-4', {
+    url: '/cotton7-4',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/cotton/7-4.html'
+        }
+    }
+  })
+
+  .state('app.cotton7-5', {
+    url: '/cotton7-5',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/cotton/7-5.html'
+        }
+    }
+  })
+
+  .state('app.cotton7-6', {
+    url: '/cotton7-6',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/cotton/7-6.html'
+        }
+    }
+  })
+
+  .state('app.cotton7-7', {
+    url: '/cotton7-7',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/cotton/7-7.html'
+        }
+    }
+  })
+
+  .state('app.cotton8', {
+    url: '/cotton8',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/cotton/8.html'
+        }
+    }
+  })
+
+  .state('app.cotton8-1', {
+    url: '/cotton8-1',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/cotton/8-1.html'
+        }
+    }
+  })
+
+  .state('app.cotton8-2', {
+    url: '/cotton8-2',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/cotton/8-2.html'
+        }
+    }
+  })
+
+  .state('app.cotton8-3', {
+    url: '/cotton8-3',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/cotton/8-3.html'
+        }
+    }
+  })
+
+  .state('app.cotton8-4', {
+    url: '/cotton8-4',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/cotton/8-4.html'
+        }
+    }
+  })
+
 
   .state('app.groundnut', {
     url: '/groundnut',
