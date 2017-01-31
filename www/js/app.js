@@ -229,14 +229,195 @@ angular.module('agri.maninModule', ['ionic', 'agri.controllers'])
     }
   })
 
-  .state('app.toordal', {
-    url: '/toordal',
+  .state('app.redgram', {
+    url: '/redgram',
     views: {
         'menuContent': {
-          templateUrl: 'templates/toordal.html'
+          templateUrl: 'templates/redgram/1.html'
         }
     }
   })
+  .state('app.redgram2', {
+    url: '/redgram2',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/2.html'
+        }
+    }
+  })
+  .state('app.redgram3', {
+    url: '/redgram3',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/3.html'
+        }
+    }
+  })
+  .state('app.redgram4', {
+    url: '/redgram4',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/4.html'
+        }
+    }
+  })
+  .state('app.redgram5', {
+    url: '/redgram5',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/5.html'
+        }
+    }
+  })
+  .state('app.redgram6', {
+    url: '/redgram6',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/6.html'
+        }
+    }
+  })
+  .state('app.redgram7', {
+    url: '/redgram7',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/7.html'
+        }
+    }
+  })
+  .state('app.redgram7-1', {
+    url: '/redgram7-1',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/7-1.html'
+        }
+    }
+  })
+  .state('app.redgram7-2', {
+    url: '/redgram7-2',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/7-2.html'
+        }
+    }
+  })
+  .state('app.redgram7-3', {
+    url: '/redgram7-3',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/7-3.html'
+        }
+    }
+  })
+  .state('app.redgram7-4', {
+    url: '/redgram7-4',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/7-4.html'
+        }
+    }
+  })
+  .state('app.redgram8', {
+    url: '/redgram8',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/8.html'
+        }
+    }
+  })
+  .state('app.redgram9', {
+    url: '/redgram9',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/9.html'
+        }
+    }
+  })
+  .state('app.redgram10', {
+    url: '/redgram10',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/10.html'
+        }
+    }
+  })
+    .state('app.redgram10-1', {
+    url: '/redgram10-1',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/10-1.html'
+        }
+    }
+  })
+
+  .state('app.redgram10-2', {
+    url: '/redgram10-2',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/10-2.html'
+        }
+    }
+  })
+  .state('app.redgram10-3', {
+    url: '/redgram10-3',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/10-3.html'
+        }
+    }
+  })
+  .state('app.redgram10-4', {
+    url: '/redgram10-4',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/10-4.html'
+        }
+    }
+  })
+  .state('app.redgram11', {
+    url: '/redgram11',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/11.html'
+        }
+    }
+  })
+
+  .state('app.redgram11-1', {
+    url: '/redgram11-1',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/11-1.html'
+        }
+    }
+  })
+
+  .state('app.redgram11-2', {
+    url: '/redgram11-2',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/11-2.html'
+        }
+    }
+  })
+  .state('app.redgram11-3', {
+    url: '/redgram11-3',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/11-3.html'
+        }
+    }
+  })
+
+  .state('app.redgram12', {
+    url: '/redgram12',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/redgram/12.html'
+        }
+    }
+  })
+ 
 
   .state('app.paddymenu', {
     url: '/paddymenu',
