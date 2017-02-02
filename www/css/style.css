@@ -301,3 +301,16 @@ th{
   text-align: left;
   width:*;
 }
+
+.table-container
+{
+  width: 100%;
+  overflow-y: auto;
+  _overflow: auto;
+  margin: 0 0 1em;
+  background-color: white;
+}
+
+.crop-heading{
+  color:white;
+}
