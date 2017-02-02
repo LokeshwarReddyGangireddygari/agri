@@ -213,6 +213,8 @@ text-align: center;
   margin: auto;
   padding:10px;
   font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .roundedrect{
@@ -223,7 +225,8 @@ text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: #33cd5f;
-  text-align: left;
+  text-align: center;
+  font-weight: bold;
 }
 
 .sub-section{
@@ -236,7 +239,7 @@ text-align: center;
   margin-right: auto;
       width: 300px;
   background-color: #33cd5f;
-  font-weight: bold;
+  
   text-align: center;
 }
 table{
@@ -285,4 +288,16 @@ th{
 
 .tegulu img{
   width:125px;
+}
+
+.field_category{
+
+  display: inline-block;
+  width:40%;
+  text-align: left;
+}
+.field_value{
+  display: inline-block;
+  text-align: left;
+  width:*;
 }

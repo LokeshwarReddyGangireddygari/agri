@@ -224,11 +224,229 @@ angular.module('agri.maninModule', ['ionic', 'agri.controllers'])
     url: '/groundnut',
     views: {
         'menuContent': {
-          templateUrl: 'templates/groundnut.html'
+          templateUrl: 'templates/groundnut/1.html'
         }
     }
   })
 
+  .state('app.groundnut2', {
+    url: '/groundnut2',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/2.html'
+        }
+    }
+  })
+
+  .state('app.groundnut3', {
+    url: '/groundnut3',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/3.html'
+        }
+    }
+  })
+
+  .state('app.groundnut4', {
+    url: '/groundnut4',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/4.html'
+        }
+    }
+  })
+
+  .state('app.groundnut5', {
+    url: '/groundnut5',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/5.html'
+        }
+    }
+  })
+
+  .state('app.groundnut6', {
+    url: '/groundnut6',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/6.html'
+        }
+    }
+  })
+
+  .state('app.groundnut7', {
+    url: '/groundnut7',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/7.html'
+        }
+    }
+  })
+
+  .state('app.groundnut8', {
+    url: '/groundnut8',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/8.html'
+        }
+    }
+  })
+
+  .state('app.groundnut9', {
+    url: '/groundnut9',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/9.html'
+        }
+    }
+  })
+
+  .state('app.groundnut10', {
+    url: '/groundnut10',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/10.html'
+        }
+    }
+  })
+
+  .state('app.groundnut11', {
+    url: '/groundnut11',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/11.html'
+        }
+    }
+  })
+
+  .state('app.groundnut12', {
+    url: '/groundnut12',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/12.html'
+        }
+    }
+  })
+  .state('app.groundnut12-1', {
+    url: '/groundnut12-1',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/12-1.html'
+        }
+    }
+  })
+  .state('app.groundnut12-2', {
+    url: '/groundnut12-2',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/12-2.html'
+        }
+    }
+  })
+  .state('app.groundnut12-3', {
+    url: '/groundnut12-3',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/12-3.html'
+        }
+    }
+  })
+  .state('app.groundnut12-4', {
+    url: '/groundnut12-4',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/12-4.html'
+        }
+    }
+  })
+  .state('app.groundnut12-5', {
+    url: '/groundnut12-5',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/12-5.html'
+        }
+    }
+  })
+  .state('app.groundnut12-6', {
+    url: '/groundnut12-6',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/12-6.html'
+        }
+    }
+  })
+    .state('app.groundnut12-7', {
+    url: '/groundnut12-7',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/12-7.html'
+        }
+    }
+  })
+    .state('app.groundnut13', {
+    url: '/groundnut13',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/13.html'
+        }
+    }
+  })
+    .state('app.groundnut13-1', {
+    url: '/groundnut13-1',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/13-1.html'
+        }
+    }
+  })
+  .state('app.groundnut13-2', {
+    url: '/groundnut13-2',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/13-2.html'
+        }
+    }
+  })
+  .state('app.groundnut13-3', {
+    url: '/groundnut13-3',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/13-3.html'
+        }
+    }
+  })
+  .state('app.groundnut13-4', {
+    url: '/groundnut13-4',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/13-4.html'
+        }
+    }
+  })
+  .state('app.groundnut13-5', {
+    url: '/groundnut13-5',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/13-5.html'
+        }
+    }
+  })
+  .state('app.groundnut13-6', {
+    url: '/groundnut13-6',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/13-6.html'
+        }
+    }
+  })
+   .state('app.groundnut13-7', {
+    url: '/groundnut13-7',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/groundnut/13-7.html'
+        }
+    }
+  })
   .state('app.redgram', {
     url: '/redgram',
     views: {
