@@ -314,3 +314,9 @@ th{
 .crop-heading{
   color:white;
 }
+#founder-details td{
+  width:24%;
+}
+#founder-details{
+   width: 100%;
+}
